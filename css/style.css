@@ -1,9 +1,11 @@
 .container {
   width: 980px;
-  margin: 0 auto;
+  margin: auto;
   font-family: sans-serif;
   text-align: center;
+  min-width: 300px;
 }
+
 .column {
   border: 1px #dce0e8 solid;
   border-radius: 5px;
@@ -32,4 +34,42 @@
 }
 .column p {
   padding: 13px;
+}
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .tiles {
+    width: 80%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 780px) and (min-width: 480px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .tiles {
+    width: 90%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 780px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .tiles {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
 }
