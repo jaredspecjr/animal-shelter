@@ -1,0 +1,22 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.container h1 {
+  text-align: center;
+}
+.column {
+  max-width: 300px;
+  float: left;
+  text-align: center;
+  margin: 10px 0;
+}
+.column img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  max-height: 150px;
+}
+.column p {
+  padding: 2px;
+}
